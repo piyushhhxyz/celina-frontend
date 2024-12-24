@@ -1,0 +1,13 @@
+/* Add to existing animations.css */
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+.animate-scroll {
+  animation: scroll 20s linear infinite;
+}
+
+.perspective-1000 {
+  perspective: 1000px;
+}
